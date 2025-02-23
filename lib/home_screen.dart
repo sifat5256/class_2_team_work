@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: <Widget>[
             // Drawer Header (optional)
             const DrawerHeader(
-              decoration: BoxDecoration(color: Colors.blue),
+              decoration: BoxDecoration(color: Colors.redAccent),
               child: Text(
                 'Menu',
                 style: TextStyle(color: Colors.white, fontSize: 24),
