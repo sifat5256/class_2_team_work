@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'donor_list.dart';
 import 'home_screen.dart';
 
 
@@ -14,9 +15,9 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
   // List of pages
   final List<Widget> _pages = [
     HomeScreen(),
+    BloodDonorListScreen(),
 
     Center(child: Text('Search Screen', style: TextStyle(fontSize: 20))),
-    Center(child: Text('Profile Screen', style: TextStyle(fontSize: 20))),
   ];
 
   void _onItemTapped(int index) {
