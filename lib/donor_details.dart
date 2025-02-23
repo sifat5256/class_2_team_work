@@ -8,7 +8,13 @@ class DonorDetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(donor['name']!)),
+      appBar: AppBar(
+        centerTitle: true,
+          backgroundColor: Colors.redAccent,
+          title: Text(donor['name']!,style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.white
+          ),)),
       body: Padding(
         padding: EdgeInsets.all(16.0),
         child: Column(

@@ -57,6 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Center(
         child: const Text(
           'Welcome to Blood Donors Community',
+          textAlign: TextAlign.center,
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
       ),

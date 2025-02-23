@@ -14,7 +14,15 @@ class BloodDonorListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Blood Donor List')),
+      appBar: AppBar(
+
+          centerTitle: true,
+          backgroundColor: Colors.redAccent,
+          title: Text('Blood Donor List',
+            style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.white
+          ),)),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: GridView.builder(

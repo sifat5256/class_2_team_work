@@ -35,7 +35,7 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
         onTap: _onItemTapped,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.list_alt_outlined), label: 'Search'),
+          BottomNavigationBarItem(icon: Icon(Icons.list_alt_outlined), label: 'Donor List'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
         ],
         selectedItemColor: Colors.blue,
