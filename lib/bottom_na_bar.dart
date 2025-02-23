@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'home_screen.dart';
+
 
 class BottomNavBarScreen extends StatefulWidget {
   @override
@@ -11,7 +13,8 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
 
   // List of pages
   final List<Widget> _pages = [
-    Center(child: Text('Home Screen', style: TextStyle(fontSize: 20))),
+    HomeScreen(),
+
     Center(child: Text('Search Screen', style: TextStyle(fontSize: 20))),
     Center(child: Text('Profile Screen', style: TextStyle(fontSize: 20))),
   ];
