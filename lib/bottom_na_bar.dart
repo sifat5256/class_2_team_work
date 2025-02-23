@@ -17,7 +17,7 @@ class _BottomNavBarScreenState extends State<BottomNavBarScreen> {
     HomeScreen(),
     BloodDonorListScreen(),
 
-    Center(child: Text('Search Screen', style: TextStyle(fontSize: 20))),
+    Center(child: Text('Profile Screen', style: TextStyle(fontSize: 20))),
   ];
 
   void _onItemTapped(int index) {

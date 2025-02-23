@@ -97,6 +97,20 @@ class _DonorCardState extends State<DonorCard> {
             SizedBox(height: 10),
             Text(widget.donor['name']!, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             Text('Blood Group: ${widget.donor['bloodGroup']}', style: TextStyle(color: Colors.black54)),
+            SizedBox(height: 10),
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(6),
+                color: Colors.redAccent
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text("Details",style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold
+                ),),
+              ),
+            )
           ],
         ),
       ),
